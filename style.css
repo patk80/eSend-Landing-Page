@@ -8,29 +8,33 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-rows: 0.5fr 4.5fr 4.5fr 1fr; */
-
+    margin: 1em;
 }
 
-.header {
-    background-color: red;
+.header-section {
     grid-column: 1 / 4;
+    border-bottom: 2px solid #000;
 }
 
-.middle {
+.middle-section {
     background-color: yellow;
     display: grid;
     grid-column: 1 / 4;
 }
 
-.middle-text {
+.middle-text-section {
     grid-column: 1 / 2;
 }
 
-.middle-image {
+.middle-image-section {
     grid-column: 2 / 3;
 }
 
-.cards {
+#middle-image {
+    width: 50%;
+}
+
+.cards-section {
     background-color: green;
     display: grid;
     grid-column: 1 / 4;
@@ -48,7 +52,7 @@
     grid-column: 3 / 4;
 }
 
-.footer {
+.footer-section {
     background-color: blue;
     grid-column: 1 / 4;
 }
