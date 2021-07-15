@@ -18,7 +18,16 @@
 
 .middle {
     background-color: yellow;
+    display: grid;
     grid-column: 1 / 4;
+}
+
+.middle-text {
+    grid-column: 1 / 2;
+}
+
+.middle-image {
+    grid-column: 2 / 3;
 }
 
 .cards {
