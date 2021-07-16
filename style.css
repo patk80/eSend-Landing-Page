@@ -38,6 +38,7 @@ button {
 .hero-text-section {
     grid-column: 1 / 2;
     margin: auto 0;
+    padding: 2em;
 }
 
 .hero-text-section h2 {
