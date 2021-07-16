@@ -26,23 +26,23 @@ button {
     border-bottom: 2px solid #000;
 }
 
-.middle-section {
+.hero-section {
     background-color: yellow;
     display: grid;
     grid-column: 1 / 4;
 }
 
-.middle-text-section {
+.hero-text-section {
     grid-column: 1 / 2;
     margin: auto 0;
 }
 
-.middle-image-section {
+.hero-image-section {
     grid-column: 2 / 3;
 
 }
 
-#middle-image {
+#hero-image {
     width: 500px;
 }
 
