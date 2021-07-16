@@ -103,6 +103,30 @@ button {
     align-items: center;
 }
 
+.card-1 h2,
+.card-2 h2,
+.card-3 h2 {
+    font-size: 2em;
+}
+
+.card-1 p,
+.card-2 p,
+.card-3 p {
+    font-size: 1.25em;
+}
+
+#bronze-plan-span {
+    color:#cd7f32;
+}
+
+#silver-plan-span {
+    color: #c0c0c0;
+}
+
+#gold-plan-span {
+    color:#d4af37; 
+}
+
 .card-1 {
     grid-column: 1 / 2;
 }
@@ -122,4 +146,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
 }
