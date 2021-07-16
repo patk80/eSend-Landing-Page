@@ -8,8 +8,8 @@
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.25fr 2.5fr 2fr 2fr 1fr;
-    margin: 1em;
+    grid-template-rows: 0.25fr 2.5fr 2fr 2fr 0.5fr;
+    /* margin: 1em; */
 }
 
 button {
@@ -26,11 +26,13 @@ button {
 .header-section {
     grid-column: 1 / 4;
     border-bottom: 2px solid #000;
+    margin: 1em;
 }
 
 .hero-section {
     display: grid;
     grid-column: 1 / 4;
+    margin: 1em;
 }
 
 .hero-text-section {
@@ -80,6 +82,7 @@ button {
 .cards-section {
     display: grid;
     grid-column: 1 / 4;
+    margin: 1em;
 }
 
 .card {
@@ -113,5 +116,10 @@ button {
 }
 
 .footer-section {
+    background-color: #3d3d3d;
+    color: #fff;
     grid-column: 1 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
