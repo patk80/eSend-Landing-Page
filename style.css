@@ -46,6 +46,17 @@ button {
     width: 500px;
 }
 
+.middle-section {
+    background-color: #6C63ff;
+    color: #fff;
+    grid-column: 1 / 4;
+}
+
+.middle-section-text {
+    width: 50%;
+    text-align: center;
+}
+
 .cards-section {
     display: grid;
     grid-column: 1 / 4;
