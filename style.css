@@ -7,7 +7,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 0.5fr 4.5fr 4.5fr 1fr; */
+    grid-template-rows: 0.25fr 2.5fr 2fr 2fr 1fr;
     margin: 1em;
 }
 
@@ -27,7 +27,6 @@ button {
 }
 
 .hero-section {
-    background-color: yellow;
     display: grid;
     grid-column: 1 / 4;
 }
@@ -39,7 +38,6 @@ button {
 
 .hero-image-section {
     grid-column: 2 / 3;
-
 }
 
 #hero-image {
@@ -50,11 +48,16 @@ button {
     background-color: #6C63ff;
     color: #fff;
     grid-column: 1 / 4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-section-text {
-    width: 50%;
     text-align: center;
+    width: 50%;
 }
 
 .cards-section {
@@ -84,6 +87,5 @@ button {
 }
 
 .footer-section {
-    background-color: blue;
     grid-column: 1 / 4;
 }
