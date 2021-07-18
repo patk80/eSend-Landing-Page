@@ -11,7 +11,7 @@
     grid-template-rows: 0.25fr 2.5fr 2fr 2fr 0.5fr;
 }
 
-button {
+.purple-button {
     padding: 1em 2em;
     border-radius: 20px;
     border: none;
@@ -19,7 +19,7 @@ button {
     font-size: 1em;
     color: #fff;
     background-color: #6C63ff;
-    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 .header-section {
