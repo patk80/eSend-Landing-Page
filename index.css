@@ -183,6 +183,8 @@
     .card-2,
     .card-3 {
         width: 70%;
-}
+        height: 20em;
+        padding: 2em;
+    }
 
 }
