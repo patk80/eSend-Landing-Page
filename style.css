@@ -70,6 +70,12 @@ button {
     font-size: 2em;
 }
 
+.middle-section-number-span {
+    font-size: 1.75em;
+    font-style: italic;
+
+}
+
 .middle-section-text p {
     font-size: 1.25em;
 }
