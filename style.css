@@ -45,6 +45,7 @@
 
 .hero-text-section p {
     font-size: 2em;
+    margin: 1em 0 1.5em 0;
 }
 
 #hero-image {
@@ -70,10 +71,18 @@
     font-size: 2em;
 }
 
+.middle-section-text h2 {
+    margin-bottom: 0.5em;
+}
+
+.middle-section-text a {
+    text-decoration: none;
+    color:#d4af37; 
+}
+
 .middle-section-number-span {
     font-size: 1.75em;
     font-style: italic;
-
 }
 
 .middle-section-text p {
