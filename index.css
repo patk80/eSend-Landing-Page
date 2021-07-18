@@ -22,7 +22,7 @@
     text-decoration: none;
 }
 
-.header-section {
+.top-section {
     grid-column: 1 / 4;
     border-bottom: 2px solid #000;
     margin: 1em;
