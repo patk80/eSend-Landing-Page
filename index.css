@@ -11,7 +11,7 @@
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.25fr 2.5fr 2fr 2fr 0.5fr;
+    grid-template-rows: 0.25fr 2.5fr 1.5fr 2fr 60px;
 }
 
 .purple-button {
@@ -239,7 +239,7 @@
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.05fr 0.5fr 0.5fr 1fr 0.15fr;
+        grid-template-rows: 0.05fr 0.5fr 0.5fr 1fr 60px;
     }
 
     .hero-section {
@@ -290,6 +290,12 @@
     }
 
     #hero-image {
+        width: 100%;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
         width: 100%;
     }
 
