@@ -14,9 +14,9 @@
     grid-template-rows: 0.25fr 2.5fr 1.5fr 2fr 60px;
 }
 
-.purple-button {
+.button {
     padding: 1em 2em;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     font-weight: 700;
     font-size: 1em;
@@ -111,7 +111,6 @@
     font-size: 2em;
     margin-bottom: 0.5em;
 }
-
 
 .middle-section-text a {
     text-decoration: none;
@@ -286,7 +285,6 @@
     .hero-text-section p {
         font-size: 1.5em;
     }
-    
 
 }
 
