@@ -109,11 +109,9 @@
 
 .middle-section-text h2 {
     font-size: 2em;
-}
-
-.middle-section-text h2 {
     margin-bottom: 0.5em;
 }
+
 
 .middle-section-text a {
     text-decoration: none;
@@ -175,14 +173,17 @@
 
 #bronze-plan-span {
     color:#cd7f32;
+    display: block;
 }
 
 #silver-plan-span {
     color: #c0c0c0;
+    display: block;
 }
 
 #gold-plan-span {
     color:#d4af37; 
+    display: block;
 }
 
 .card-1 {
@@ -248,6 +249,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .middle-section-text {
+        width: 80%;
     }
 
     .cards-section {
@@ -338,6 +343,12 @@
     .hero-text-section h2 {
         font-size: 1.75em;
     }
+
+    .card-1 p,
+    .card-2 p,
+    .card-3 p {
+    font-size: 1em;
+}
 
 }
 /****************************************************************************************************************************/
