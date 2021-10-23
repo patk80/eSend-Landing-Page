@@ -273,13 +273,35 @@
     #hero-image {
         width: 70%;
     }
+
+    .hero-text-section h2 {
+        font-size: 2.5em;
+    }
+
+    .hero-text-section p {
+        font-size: 1.5em;
+    }
     
 
 }
 
 
 
+@media only screen and (max-width: 768px) {
+
+    .hero-text-section h2 {
+        font-size: 2em;
+    }
+
+}
+
+
+
 @media only screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
 
     .hero-text-section {
         padding: 0 0 1.25em 0;
@@ -297,6 +319,24 @@
     .card-2,
     .card-3 {
         width: 100%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 460px) {
+
+    .top-section img {
+        width: 30px;
+    }
+
+    h1 {
+        font-size: 1.15em;
+    }
+
+    .hero-text-section h2 {
+        font-size: 1.75em;
     }
 
 }
