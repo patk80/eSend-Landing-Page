@@ -45,6 +45,10 @@
     width: 50px;
     margin-right: 1em;
 }
+
+.top-section-eSend-text {
+    color: #6C63ff;
+}
 /****************************************************************************************************************************/
 /* TOP SECTION (NAV) END */
 /****************************************************************************************************************************/
@@ -63,10 +67,12 @@
 .hero-text-section {
     margin: auto 0;
     padding: 2em;
+    text-align: center;
 }
 
 .hero-text-section h2 {
     font-size: 3em;
+    color: #3025ff;
 }
 
 .hero-text-section p {
@@ -75,7 +81,7 @@
 }
 
 #hero-image {
-    width: 500px;
+    width: 100%;
 }
 /****************************************************************************************************************************/
 /* HERO SECTION END */
@@ -220,13 +226,20 @@
 
 /****************************************************************************************************************************/
 /* MEDIA QUERIES START */
+
+/* 
+1200px for large devices
+992px for laptops
+768px for tablets
+576px for portrait phones 
+*/
 /****************************************************************************************************************************/
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
 
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.05fr 1fr 0.5fr 1fr 0.15fr;
+        grid-template-rows: 0.05fr 0.5fr 0.5fr 1fr 0.15fr;
     }
 
     .hero-section {
@@ -249,6 +262,35 @@
         width: 70%;
         height: 20em;
         padding: 2em;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    #hero-image {
+        width: 70%;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .hero-text-section {
+        padding: 0 0 1.25em 0;
+    }
+
+    .hero-text-section p {
+        font-size: 1em;
+    }
+
+    #hero-image {
+        width: 100%;
     }
 
 }
